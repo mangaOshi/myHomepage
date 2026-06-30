@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Post Patcher</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    line-height: 1.8;
+  }
+  .container {
+    max-width: 720px;
+    width: 100%;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  header p {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 36px 32px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(12px);
+  }
+  .card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #a78bfa;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card h2 .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background: rgba(167, 139, 250, 0.15);
+    font-size: 0.85rem;
+    color: #a78bfa;
+    flex-shrink: 0;
+  }
+  .card p, .card li {
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  .card ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .card ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 6px;
+  }
+  .card ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #a78bfa;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  footer a { color: #a78bfa; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Post Patcher &mdash; Last updated: 2026-06-30</p>
+  </header>
+
+  <div class="card">
+    <h2><span class="num">1</span>Introduction</h2>
+    <p>Post Patcher is a personal content management tool that helps publish and schedule posts to social media platforms including Instagram, Threads, and Bluesky. This policy describes how the application handles user data.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">2</span>Data We Access</h2>
+    <p>When you connect your accounts, the app accesses only the minimum data required:</p>
+    <ul>
+      <li>Instagram / Facebook account name and ID (for posting)</li>
+      <li>Access tokens (stored locally on your device only)</li>
+      <li>Media you explicitly upload for publishing</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">3</span>Data Storage &amp; Security</h2>
+    <p>All credentials and tokens are stored locally on your machine in environment files and are never transmitted to any external server. No user data is collected, stored on remote servers, or shared with any third party.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">4</span>Third-Party Services</h2>
+    <p>This app interacts with the following APIs solely to perform the actions you initiate:</p>
+    <ul>
+      <li>Meta Graph API (Instagram / Facebook / Threads)</li>
+      <li>Bluesky AT Protocol</li>
+    </ul>
+    <p style="margin-top: 10px;">No data is sent to analytics, advertising, or tracking services.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">5</span>Data Deletion</h2>
+    <p>Since no data is stored remotely, you can delete all local data at any time by removing the application files from your device. To revoke API access, disconnect the app from your Meta account settings.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">6</span>Contact</h2>
+    <p>For questions about this privacy policy, please contact us at:</p>
+    <p style="margin-top: 8px; color: #a78bfa;">abe_m@g-rise.biz</p>
+  </div>
+
+  <footer>
+    &copy; 2026 Post Patcher &middot; <a href="https://github.com/ymstgrstrb8181-lgtm/affiliate-post-pipeline">GitHub</a>
+  </footer>
+</div>
+</body>
+</html>
